@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/system_ext/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/nothing/phone2/proprietary/system_ext/lib64/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libencoderjpeg_jni.so \
     vendor/nothing/phone2/proprietary/system_ext/lib64/libqesdk_ndk_platform.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqesdk_ndk_platform.qti.so \
+    vendor/nothing/phone2/proprietary/system_ext/lib64/libofflineproc_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libofflineproc_jni.so \
     vendor/nothing/phone2/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/nothing/phone2/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/nothing/phone2/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -1115,6 +1116,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_v5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_v5.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
+    vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_mf_superresolution.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_mf_superresolution.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_mcxmflpolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_mcxmflpolicy.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_night_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_video.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
