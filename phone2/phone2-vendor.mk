@@ -539,6 +539,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/nothing/phone2/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/nothing/phone2/proprietary/vendor/etc/thermal.high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.conf \
+    vendor/nothing/phone2/proprietary/vendor/etc/thermal.mid.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.conf \
+    vendor/nothing/phone2/proprietary/vendor/etc/thermal.low.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.conf \
+    vendor/nothing/phone2/proprietary/vendor/etc/thermal.super.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.super.conf \
+    vendor/nothing/phone2/proprietary/vendor/etc/thermal.noth.camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.noth.camera.conf \
+    vendor/nothing/phone2/proprietary/vendor/etc/thermal.third.camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.third.camera.conf \
     vendor/nothing/phone2/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
@@ -1677,6 +1683,7 @@ PRODUCT_PACKAGES += \
     libats \
     libfastcvopt \
     liblx-osal \
+    liblmthermallistner \
     libthermalclient \
     libvmmem \
     vendor.qti.hardware.AGMIPC@1.0-impl \
