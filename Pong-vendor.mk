@@ -822,10 +822,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
+    audio.primary.taro \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     fingerprint.default \
+    sound_trigger.primary.taro \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -877,15 +879,23 @@ PRODUCT_PACKAGES += \
     libTrustedUI \
     libTrustedUITZ \
     libTrustedUIVM \
+    lib_bt_aptx \
+    lib_bt_ble \
+    lib_bt_bundle \
     lib_lvacfs \
     libadm \
     libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libagm \
     libaidenoiser \
     libaidenoiserv2 \
     libalCFR \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
+    libar-pal \
     libarcsoft_aiscenedetection \
     libarcsoft_base_utils \
     libarcsoft_beautyshot \
@@ -912,6 +922,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_fusion_raw_portrait_super_night \
     libarcsoft_turbo_fusion_raw_super_night \
     libarcsoft_watermark \
+    libats \
     libaudio_log_utils \
     libbacklight-calib \
     libbatching \
@@ -1052,6 +1063,8 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     liblvacfs_wrapper \
+    liblx-ar_util \
+    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_stub \
@@ -1331,6 +1344,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-V5-ndk_platform \
     vendor.qti.gnss-service \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
+    vendor.qti.hardware.ListenSoundModel@1.0-impl \
+    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -1367,6 +1383,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.0 \
     vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.mwqemadapter@1.0 \
+    vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
