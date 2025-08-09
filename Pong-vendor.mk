@@ -6,10 +6,13 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nothing/Pong
 
 PRODUCT_COPY_FILES += \
+    vendor/nothing/Pong/proprietary/system_ext/etc/init/sltntc.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/sltntc.rc \
     vendor/nothing/Pong/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/nothing/Pong/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/nothing/Pong/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/nothing/Pong/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/nothing/Pong/proprietary/system_ext/etc/sltntc/sltntc.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc.conf \
+    vendor/nothing/Pong/proprietary/system_ext/etc/sltntc/sltntc_SM8475.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc_SM8475.conf \
     vendor/nothing/Pong/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
