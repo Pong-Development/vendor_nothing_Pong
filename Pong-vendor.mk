@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb \
-    vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp \
     vendor/nothing/Pong/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/AI_Seg_v0.2.29.1_nothing.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/AI_Seg_v0.2.29.1_nothing.bin \
