@@ -144,16 +144,123 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb \
     vendor/nothing/Pong/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
-    vendor/nothing/Pong/proprietary/vendor/etc/camera/AI_Seg_v0.2.29.1_nothing.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/AI_Seg_v0.2.29.1_nothing.bin \
-    vendor/nothing/Pong/proprietary/vendor/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin \
-    vendor/nothing/Pong/proprietary/vendor/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/Ndot-55.otf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Ndot-55.otf \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/camerainfo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camerainfo.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/decision.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/decision.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/aifeiertieta/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/aifeiertieta/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/boli/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/boli/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/boli/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/boli/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/boli/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/boli/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/boli/hsl.vert:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/boli/hsl.vert \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/boli/len.frag:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/boli/len.frag \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/boli/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/boli/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilin/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilin/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/feilinheibai/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/feilinheibai/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupian/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupian/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/fupianV2/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/fupianV2/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/heibaidianying/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/heibaidianying/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/lengdiao/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/lengdiao/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/meishi/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/meishi/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/nuandiao/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/nuandiao/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/stretch/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/stretch/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/yinyan/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/yinyan/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhengpian/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhengpian/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/zhigan/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/zhigan/params.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/config.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/effect_content.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/effect_content.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/filter.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/filter.png \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/filter_effect3.fs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/filter_effect3.fs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/filter_effect3.vs:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/filter_effect3.vs \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/filter/ziran/params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/ziran/params.json \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/default_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/default_params.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/camera/facesr.sensetime.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facesr.sensetime.model \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/morphoVideoEIS.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morphoVideoEIS.bin \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/morpho_raw_deep_denoise_tuning_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_raw_deep_denoise_tuning_params.xml \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/nothing_node.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/nothing_node.bin \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/nothing_noise_stat.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/nothing_noise_stat.bin \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/nothing_pipeline.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/nothing_pipeline.bin \
+    vendor/nothing/phone2/proprietary/vendor/etc/camera/ntcamoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ntcamoverridesettings.txt \
     vendor/nothing/Pong/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/nothing/Pong/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -235,6 +342,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
+    vendor/nothing/phone2/proprietary/vendor/etc/init/power.stats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power.stats.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
@@ -246,6 +354,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
+    vendor/nothing/phone2/proprietary/vendor/etc/init/vendor.noth.hardware.camera-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.noth.hardware.camera-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
@@ -677,6 +786,7 @@ PRODUCT_PACKAGES += \
     com.arcsoft.node.picauto \
     com.arcsoft.node.smooth_transition \
     com.arcsoft.node.videosn \
+    com.bots.node.vendortagwrite \
     com.morpho.node.previeweis \
     com.morpho.node.videoeis \
     com.nothing.node.motion \
@@ -746,6 +856,36 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.pdlib \
     libdepthmapwrapper \
     libdepthmapwrapper_secure \
+    com.nothing.node.aimoon \
+    com.nothing.node.aisr \
+    com.nothing.node.b2y \
+    com.nothing.node.beauty \
+    com.nothing.node.bokehhdr \
+    com.nothing.node.cfr \
+    com.nothing.node.darkvision \
+    com.nothing.node.dehaze \
+    com.nothing.node.dmp \
+    com.nothing.node.filter \
+    com.nothing.node.frmselect \
+    com.nothing.node.frt \
+    com.nothing.node.jpeg \
+    com.nothing.node.jpegr \
+    com.nothing.node.ldc \
+    com.nothing.node.memcpy \
+    com.nothing.node.mmf \
+    com.nothing.node.motioncapture \
+    com.nothing.node.p2y \
+    com.nothing.node.portrait \
+    com.nothing.node.rawhdr \
+    com.nothing.node.rawhdrfront \
+    com.nothing.node.rawsr \
+    com.nothing.node.supernight \
+    com.nothing.node.superportraitnight \
+    com.nothing.node.turbonight \
+    com.nothing.node.turbonightfront \
+    com.nothing.node.watermark \
+    com.nothing.node.y2y \
+    com.nothing.node.yuvhdr \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
     camx.device@3.4-ext-impl \
@@ -898,29 +1038,33 @@ PRODUCT_PACKAGES += \
     libar-gpr \
     libar-gsl \
     libar-pal \
+    libarcsoft_ai_moon \
     libarcsoft_aiscenedetection \
     libarcsoft_base_utils \
     libarcsoft_beautyshot \
     libarcsoft_dark_vision_raw \
+    libarcsoft_dehaze \
     libarcsoft_dual_sat \
     libarcsoft_dual_zoomtranslator \
     libarcsoft_dualcam_refocus_image \
+    libarcsoft_dualcam_refocus_preview \
     libarcsoft_dualcam_refocus_video \
     libarcsoft_facialrestoration \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
-    libarcsoft_high_dynamic_range_v5 \
-    libarcsoft_low_light_hdr \
+    libarcsoft_lensstaindetection \
+    libarcsoft_native_hdrbokeh_engine \
     libarcsoft_mcxmflpolicy \
     libarcsoft_night_video \
+    libarcsoft_panorama \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_portrait_super_night_raw \
     libarcsoft_qnnhtp \
     libarcsoft_singlecam_bokeh \
     libarcsoft_super_night_raw \
-    libarcsoft_superportrait \
     libarcsoft_t_hdr_raw \
     libarcsoft_t_hdr_raw_front \
+    libarcsoft_tfp_grf \
     libarcsoft_turbo_fusion_raw_portrait_super_night \
     libarcsoft_turbo_fusion_raw_super_night \
     libarcsoft_watermark \
@@ -1090,6 +1234,7 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
     libmorpho_MotionSensor \
+    libmorpho_RapidEffect \
     libmorpho_RawDeepDenoise \
     libmorpho_video_stabilizer \
     libmouth_mask_detection.arcsoft \
@@ -1109,8 +1254,23 @@ PRODUCT_PACKAGES += \
     libnetmgrportutils \
     libnetmgrxfrmutils \
     libnlnetmgr \
+    libnoteengine \
+    libntcamallocator \
+    libntcamcommonutils \
+    libntcamcore \
+    libntcamera2ndk_vendor_v1 \
+    libntcamextened \
+    libntcamimage_io \
+    libntcammetadata \
+    libntcampipepb \
+    libntcamselector \
+    libntcamskia \
+    libntcamthread \
+    libntcamultrahdr \
+    libntcamyuv \
+    libntf \
+    libntofflinepostproc \
     liboemaids_vendor \
-    libofflinepostprocclient \
     libomp \
     libopencv \
     libopencv3a \
@@ -1123,7 +1283,6 @@ PRODUCT_PACKAGES += \
     libpdnotifier \
     libperipheral_client \
     libpn560_fw \
-    libportrait_repair_ppl3_ocl \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
