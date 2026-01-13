@@ -4,8 +4,7 @@
 
 soong_namespace {
     imports: [
-	    "device/nothing/Pong/camera",
-        "frameworks/av/camera",
+	    "device/nothing/Pong",
         "hardware/qcom-caf/sm8450",
         "hardware/qcom-caf/wlan",
         "vendor/qcom/opensource/commonsys/display",
