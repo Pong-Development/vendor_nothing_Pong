@@ -15,10 +15,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/system_ext/etc/sltntc/sltntc_SM8475.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc_SM8475.conf \
     vendor/nothing/Pong/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
+    vendor/nothing/Pong/proprietary/system_ext/etc/init/qspa_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspa_system.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/nothing/Pong/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/Pong/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Pong/proprietary/system_ext/etc/permissions/com.nothing.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nothing.feature.xml \
@@ -677,17 +679,20 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_4mb_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v6.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_4mb_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v6_rsa.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_4mb_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v7.mbn \
+    vendor/nothing/Pong/proprietary/vendor/firmware/venus_4mb_v7_3.mb:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v7_3.mb \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_ecdsa.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_unsigned.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v6.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v6_rsa.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v7.mbn \
+    vendor/nothing/Pong/proprietary/vendor/firmware/venus_5mb_v7_3.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v7_3.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_ecdsa.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_unsigned.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v6.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v6_rsa.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/venus_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v7.mbn \
+    vendor/nothing/Pong/proprietary/vendor/firmware/venus_v7_3.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v7_3.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
     vendor/nothing/Pong/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
@@ -1760,6 +1765,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \

@@ -10,11 +10,5 @@ on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=0
 on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=1
 	start sltntc
 
-on property:sys.boot_thermal_off=1 && property:ro.boot.hardware=mt6886
-    exec -- /vendor/bin/thermal_intf apply disable_throttling.conf
-
-on property:sys.boot_thermal_off=0 && property:ro.boot.hardware=mt6886
-    exec -- /vendor/bin/thermal_intf apply thermal.conf
-
 on boot
     chown system system /sys/devices/virtual/virtual_temp/shell/data
