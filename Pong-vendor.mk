@@ -1038,7 +1038,6 @@ PRODUCT_PACKAGES += \
     lib_lvacfs \
     libaacvibrator \
     libadm \
-    libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
@@ -1148,7 +1147,6 @@ PRODUCT_PACKAGES += \
     libeepromcutter \
     libembmsservice \
     libengineplugin \
-    libofflineproc_jni \
     libencoderjpeg_jni \
     libesepmconfig \
     libesesbprovision \
